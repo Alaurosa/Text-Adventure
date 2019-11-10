@@ -40,7 +40,7 @@ h3{
 }
 
 #gameover {
-  color: black;
-  outline-color: red;
-  outline-width: 3px; 
+  color: red;
+  outline-color: black;
+  outline-width: 3px;
 }
