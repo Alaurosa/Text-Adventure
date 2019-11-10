@@ -20,7 +20,7 @@ function oneAA() {
 }
 
 function oneAB() {
-  document.getElementById("response3").innerHTML = `You feel uneasy about the door. After some thought, you decide to go to the other door.<button type="button" name="Theevilbutton1" onClick="reoneB()">1</button>`;
+  document.getElementById("response3").innerHTML = `You feel uneasy about the door. After some thought, you decide to go to the other door.<button type="button" name="Theevilbutton" onClick="reoneB()">1</button>`;
 }
 
 function oneB() {
@@ -44,16 +44,21 @@ function oneBB() {
 }
 
 function retwo() {
-  document.getElementById("response4").innerHTML = `You break into the house and try to unlock all the doors. You see several doors, trying all of them. As you turn each of the doorknobs, you notice only two of the doors are unlocked.<button type="button" name="Theevilbutton1" onClick="twoA()">1</button><button type="button" name="Theevilbutton2" onClick="twoB()">2</button>`;
+  document.getElementById("response4").innerHTML = `You break into the house and try to unlock all the doors. You see several doors, trying all of them. As you turn each of the doorknobs, you notice only two of the doors are unlocked.<button type="button" name="Theevilbutton" onClick="twoA()">1</button><button type="button" name="Theevilbutton2" onClick="twoB()">2</button>`;
 }
 
 function two() {
-  document.getElementById("response1").innerHTML = `You break into the house and try to unlock all the doors. You see several doors, trying all of them. As you turn each of the doorknobs, you notice only two of the doors are unlocked.<button type="button" name="Theevilbutton1" onClick="twoA()">1</button>`;
+  document.getElementById("response1").innerHTML = `You break into the house and try to unlock all the doors. You see several doors, trying all of them. As you turn each of the doorknobs, you notice only two of the doors are unlocked.<button type="button" name="Theevilbutton" onClick="twoA()">1</button>`;
 }
 
 function twoA() {
-  document.getElementbyId("response1").innerHTML = `You carefully walk through the halls to the first door. You hear a muffled, high-pitched sound, continuously repeating in short intervals. You can’t quite make out what the sound is.
-<button type="button" name="Theevilbutton" onClick="twoA()">1</button>`;
+  document.getElementbyId("response1").innerHTML = `You carefully walk through the halls to the first door. You hear a muffled, high-pitched sound, continuously repeating in short intervals. You can’t quite make out what the sound is. Do you want to 1. Walk in or 2. Walk away to the second door?
+<button type="button" name="Theevilbutton" onClick="twoAA()">1</button><button type="button" name="Theevilbutton2" onClick="twoAB()">2</button>`;
+}
+
+function retwoA() {
+  document.getElementbyId("response3").innerHTML = `You carefully walk through the halls to the first door. You hear a muffled, high-pitched sound, continuously repeating in short intervals. You can’t quite make out what the sound is. Do you want to 1. Walk in or 2. Walk away to the second door?
+<button type="button" name="Theevilbutton" onClick="twoAA()">1</button><button type="button" name="Theevilbutton2" onClick="twoAB()">2</button>`;
 }
 
 function twoAA() {
@@ -88,12 +93,14 @@ function twoC() {
 
 function twoCA() {
   document.getElementbyId("response1").innerHTML = `You walk in to see Emma, the president’s daughter, on the ground with a gag on her mouth and her arms tied around a pole. You quickly untie her arms and take off her gag. You and Emma rush out of the house and notify your agency of your success. Congratulations, mission complete!
-<button type="button" name="Theevilbutton" onClick="secondCAThing()">1</button>`;
+<button type="button" name="Theevilbutton" onClick="twoCA()">1</button>`;
 }
 
 function twoCB() {
+
   document.getElementbyId("response2").innerHTML = `You feel uneasy about the door. After some thought, you decide to go to the other door.
 <button type="button" name="Theevilbutton" onClick="secondCBThing()">2</button>`;
+
 }
 
 
