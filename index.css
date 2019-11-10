@@ -5,6 +5,11 @@ padding-top:50px;
 color:white;
 }
 
+body{
+background-image: url("487725.jpg");
+background-size:cover;
+}
+
 #para1{
   padding-left:100px;
   padding-right:100px;
@@ -23,11 +28,3 @@ h2{
 #textbox{
   padding-top: 1px;
   top: 1px;
-
-
-
-
-body {
-background-image: url("487725.jpg");
-background-size:cover;
-}
