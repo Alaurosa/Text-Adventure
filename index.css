@@ -4,16 +4,11 @@ padding-right: 500px;
 }
 
 #para1{
-
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left:150px;
+  padding-right:150px;
   font-size:25px;
-  padding-top: 100px;
+  padding-top:100px;
   color: black;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: blue;
-
 }
 
 body {
