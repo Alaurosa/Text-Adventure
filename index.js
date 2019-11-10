@@ -96,7 +96,7 @@ function twoC() {
 
 function twoCA() {
   document.getElementbyId("response1").innerHTML = `You walk in to see Emma, the president’s daughter, on the ground with a gag on her mouth and her arms tied around a pole. You quickly untie her arms and take off her gag. You and Emma rush out of the house and notify your agency of your success. Congratulations, mission complete!
-<button type="button" name="Theevilbutton" onClick="secondCAThing()">1</button>`;
+<button type="button" name="Theevilbutton" onClick="twoCA()">1</button>`;
 }
 
 function twoCB() {
