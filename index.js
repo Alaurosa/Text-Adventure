@@ -15,7 +15,7 @@ function one() {
 
 function oneA() {
   document.getElementById("response1").innerHTML = `As you walk closer to the door, you notice beastly scratch marks on the ground and hear what sounds like deep whimpering from the other side. Could this be the president’s daughter?
-  <h3>Do you want to 1. Open the door or 2. Turn around and go check the door on the right?</h3><button type="button" name="Theevilbutton" onClick="oneAA()">1</button>`;
+  <h3>Do you want to 1. Open the door or 2. Turn around and go check the door on the right?</h3><button type="button" name="Theevilbutton" onClick="oneAA()">1</button><button type="button" name="Theevilbutton2" onClick="oneAB()">2</button>`;
 }
 
 function oneAA() {
