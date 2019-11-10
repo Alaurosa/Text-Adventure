@@ -1,8 +1,25 @@
+function printHTML(input){
+  var iframe = document.createElement("iframe"); // create the element
+  document.body.appendChild(iframe);  // insert the element to the DOM
+
+  iframe.contentWindow.document.write(input); // write the HTML to be printed
+  iframe.contentWindow.print();  // print it
+  document.body.removeChild(iframe); // remove the iframe from the DOM
+}
+
+
+
+
+
+
+
 function firstThing() {
+
+
  /*var done = false;
   while (done == false) {
     var way =  window.prompt("Type 'left' or 'right': "); */
-    if(document.getElementById('textbox').value == "1")
+   if(document.getElementById('textbox').value == "1")
     {
      document.write('<center><br><font color="#0000FF" size=20></b>As you enter the dark and barely lit warehouse you see two doors, one to your left and one to your right.</b></font></br></center>');
       if(document.getElementById('textbox').value == "1")
