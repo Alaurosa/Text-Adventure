@@ -19,9 +19,26 @@ h2{
   color:white;
 }
 
+
 #textbox{
   padding-top: 1px;
   top: 1px;
+
+/* h3 {
+  padding-left: 435px;
+  padding-right: 300px;
+  color:white;
+}
+*/
+
+.myButton{
+  display: flex, inline-block;
+  margin:0 auto;
+  height:30px;
+  width:125px;
+  background:white;
+  font-size:20px;
+  /* display: inline-block;*/
 }
 
 
