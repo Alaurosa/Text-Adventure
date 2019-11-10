@@ -19,14 +19,9 @@ h2{
   color:white;
 }
 
-.myButton{
-  display: flex, inline-block;
-  margin:0 auto;
-  height:30px;
-  width:125px;
-  background:white;
-  font-size:20px;
-  /* display: inline-block;*/
+#textbox{
+  padding-top: 1px;
+  top: 1px;
 }
 
 
