@@ -34,3 +34,9 @@ h3{
 .Theevilbutton2{
   margin:50px;
 }
+
+#gameover {
+  color: black;
+  outline-color: red;
+  outline-width: 3px; 
+}
