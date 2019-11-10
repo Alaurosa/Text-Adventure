@@ -23,8 +23,28 @@ function firstAAThing() {
   document.getElementById("reponse1").innerHTML = `You open the door and you realize it isn’t the sound of whimpering you’re hearing, but rather growling. You see two glaring red eyes look up to you and it pounces at you. YOU DIED.<h1 id="gameover">GAME OVER</h1>`;
 }
 
+function firstABThing() {
+  document.getElementbyId("response2").innerHTML = `You feel uneasy about the door. After some thought, you decide to go to the other door.<button type="button" name="Theevilbutton" onClick="firstBThing()">1</button>`;
+}
+
+function firstBThing() {
+  document.getElementbyId("response2").innerHTML = `You smell the faint smell of gasoline as you get closer to the door but other than that you hear no signs of movement from inside.
+  <button type="button" name="Theevilbutton" onClick="secondThing()">1</button>`;
+}
 function secondThing() {
   document.getElementbyId("response2").innerHTML = `You break into the house and try to unlock all the doors. You see several doors, trying all of them. As you turn each of the doorknobs, you notice only two of the doors are unlocked.<button type="button" name="Theevilbutton" onClick="secondThing()">1</button>`;
+}
+
+function secondAThing() {
+
+} 
+
+function secondAAThing() {
+  
+}
+
+function secondABThing() {
+  
 }
 
  /*var done = false;
