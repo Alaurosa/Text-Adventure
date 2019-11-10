@@ -11,14 +11,20 @@ function printHTML(input){
 
 
 
-
-
+function thirdThing() {
+  
+}
+function secondThing() {
+  document.getElementById("response1").innerHTML = `As you walk closer to the door, you notice beastly scratch marks on the ground and hear what sounds like deep whimpering from the other side. Could this be the president’s daughter? 
+  <button type="button" name="Theevilbutton" onClick="thirdThing()">1</button>`; 
+}
 function firstThing() {
-
+  document.getElementById("response1").innerHTML = `As you enter the dark and barely lit warehouse you see two doors, one to your left and one to your right.   <button type="button" name="Theevilbutton" onClick="secondThing()">1</button>`; 
+}
 
  /*var done = false;
   while (done == false) {
-    var way =  window.prompt("Type 'left' or 'right': "); */
+    var way =  window.prompt("Type 'left' or 'right': ");
    if(document.getElementById('textbox').value == "1")
     {
      document.write('<center><br><font color="#0000FF" size=20></b>As you enter the dark and barely lit warehouse you see two doors, one to your left and one to your right.</b></font></br></center>');
