@@ -9,6 +9,7 @@ function printHTML(input){
 
 
 
+
 function one() {
   document.getElementById("response1").innerHTML = `As you enter the dark and barely lit warehouse you see two doors, one to your left and one to your right.   <h3>Do you want to 1. Go through the door on the left in the warehouse or 2. Go through the door on the right? </h3><button type="button" name="Theevilbutton" onClick="oneA()">1</button>`;
 }
@@ -20,6 +21,7 @@ function oneA() {
 
 function oneAA() {
   document.getElementById("response3").innerHTML = `You open the door and you realize it isn’t the sound of whimpering you’re hearing, but rather growling. You see two glaring red eyes look up to you and it pounces at you. YOU DIED.<h1 id="gameover">GAME OVER</h1>`; 
+
 }
 
 function oneAB() {
@@ -59,6 +61,7 @@ function twoA() {
 <button type="button" name="Theevilbutton" onClick="twoA()">1</button>`;
 }
 
+
 function twoAA() {
   document.getElementbyId("response1").innerHTML = `Assuming that the sound is the girl whimpering with a gag on her mouth, you open the door and walk in.
 <button type="button" name="Theevilbutton" onClick="twoAA()">1</button>`;
@@ -77,6 +80,7 @@ function twoB() {
 function twoBA() {
   document.getElementbyId("response1").innerHTML = `You see a speaker sitting in the center of the room and realize that is where the sound is coming from. You turn around to leave the room when the serial killer jumps out from behind the door and shoots you. YOU DIED.
 <button type="button" name="Theevilbutton" onClick="twoBA()">1</button>`;
+
 }
 
 function twoBB() {
