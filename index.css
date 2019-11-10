@@ -1,28 +1,37 @@
 h1 {
 padding-left: 500px;
-padding-right: 500px;
+padding-right: 475px;
 padding-top:50px;
+color:white;
 }
 
 #para1{
-
   padding-left:100px;
   padding-right:100px;
   font-size:25px;
-  padding-top:50px;
-  color:black;
+  padding-top:40px;
+  color:beige;
 }
 
 h2{
   padding-left: 435px;
   padding-right: 300px;
-  font-size:25px;
-  padding-top:100px;
-  color:black;
+  color:white;
+}
+
+.myButton{
+  margin:0 auto;
+  height:30px;
+  width:125px;
+  background:white;
+  display: flex;
+  font-size:20px;
+
+
 
 }
 
 body {
-background-image: url("Spooky.jpeg ");
+background-image: url("487725.jpg");
 background-size:cover;
 }
