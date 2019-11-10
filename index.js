@@ -1,8 +1,10 @@
 function firstThing() {
-
-    if(document.getElementById('textbox').value == "left")
+ /*var done = false;
+  while (done == false) {
+    var way =  window.prompt("Type 'left' or 'right': "); */
+    if(document.getElementById('textbox').value == "1")
     {
-     document.write('<center><br><font color="#0000FF" size=20></b>You see a squid coming towards you, you have retrieved the food and flare but it is clearly slowing you down. To survive you either need to ditch the food or the flare. Pick wisely, your life depends on it.</b></font></br></center>');
+     document.write('<center><br><font color="#0000FF" size=20></b>As you enter the dark and barely lit warehouse you see two doors, one to your left and one to your right.</b></font></br></center>');
      document.write('<br><br><center><form><input type="button" style="height: 100px; width: 100px" value="Back" onClick="history.go(-1);return true;"></form></center></br></br>');
     }
   }
