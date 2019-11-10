@@ -1,14 +1,25 @@
 h1 {
 padding-left: 500px;
 padding-right: 500px;
+padding-top:50px;
 }
 
 #para1{
-  padding-left:150px;
-  padding-right:150px;
+
+  padding-left:100px;
+  padding-right:100px;
+  font-size:25px;
+  padding-top:50px;
+  color:black;
+}
+
+h2{
+  padding-left: 435px;
+  padding-right: 300px;
   font-size:25px;
   padding-top:100px;
-  color: black;
+  color:black;
+
 }
 
 body {
