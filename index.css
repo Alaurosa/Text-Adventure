@@ -19,6 +19,12 @@ h2{
   color:white;
 }
 
+h3 {
+  padding-left: 435px;
+  padding-right: 300px;
+  color:white;
+}
+
 .myButton{
   display: flex, inline-block;
   margin:0 auto;
