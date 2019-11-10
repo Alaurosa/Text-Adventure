@@ -9,9 +9,6 @@ function printHTML(input){
 
 
 
-function one() {
-  document.getElementById("response1").innerHTML = `As you enter the dark and barely lit warehouse you see two doors, one to your left and one to your right.   <h3>Do you want to 1. Go through the door on the left in the warehouse or 2. Go through the door on the right? </h3><button type="button" name="Theevilbutton" onClick="oneA()">1</button>`;
-}
 
 function oneA() {
   document.getElementById("response1").innerHTML = `As you walk closer to the door, you notice beastly scratch marks on the ground and hear what sounds like deep whimpering from the other side. Could this be the president’s daughter?
@@ -19,7 +16,7 @@ function oneA() {
 }
 
 function oneAA() {
-  document.getElementById("response3").innerHTML = `You open the door and you realize it isn’t the sound of whimpering you’re hearing, but rather growling. You see two glaring red eyes look up to you and it pounces at you. YOU DIED.<h1 id="gameover">GAME OVER</h1>`; 
+  document.getElementById("response3").innerHTML = `You open the door and you realize it isn’t the sound of whimpering you’re hearing, but rather growling. You see two glaring red eyes look up to you and it pounces at you. YOU DIED.<h1 id="gameover">GAME OVER</h1>`;
 }
 
 function oneAB() {
@@ -27,7 +24,7 @@ function oneAB() {
 }
 
 function oneB() {
- 
+
   document.getElementById("response2").innerHTML = `You smell the faint smell of gasoline as you get closer to the door but other than that you hear no signs of movement from inside.
   <button type="button" name="Theevilbutton" onClick="oneBA()">1</button><button type="button" name="Theevilbutton2" onClick="oneBB()">2</button>`;
 }
@@ -100,6 +97,7 @@ function twoCA() {
 }
 
 function twoCB() {
+
   document.getElementbyId("response2").innerHTML = `You feel uneasy about the door. After some thought, you decide to go to the first door.`
   retwoA();
 }
