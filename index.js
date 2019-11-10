@@ -23,15 +23,36 @@ function firstAAThing() {
 }
 
 function firstABThing() {
-  document.getElementbyId("response2").innerHTML = `You feel uneasy about the door. After some thought, you decide to go to the other door.<button type="button" name="Theevilbutton" onClick="firstBThing()">1</button>`;
+  document.getElementById("response3").innerHTML = `You feel uneasy about the door. After some thought, you decide to go to the other door.<button type="button" name="Theevilbutton1" onClick="refirstBThing()">1</button>`;
 }
 
 function firstBThing() {
-  document.getElementbyId("response2").innerHTML = `You smell the faint smell of gasoline as you get closer to the door but other than that you hear no signs of movement from inside.
-  <button type="button" name="Theevilbutton" onClick="secondThing()">1</button>`;
+ 
+  document.getElementById("response2").innerHTML = `You smell the faint smell of gasoline as you get closer to the door but other than that you hear no signs of movement from inside.
+  <button type="button" name="Theevilbutton" onClick="firstBAThing()">1</button><button type="button" name="Theevilbutton2" onClick="firstBBThing()">2</button>`;
 }
+
+function refirstBThing() {
+  document.getElementById("response4").innerHTML = `You smell the faint smell of gasoline as you get closer to the door but other than that you hear no signs of movement from inside.
+  <button type="button" name="Theevilbutton2" onClick="secondThing()">2</button>`;
+}
+
+function firstBAThing() {
+  document.getElementById("response3").innerHTML = `The light bulb short circuits and creates a spark. The room goes up in flames and the fire quickly spreads throughout the warehouse. YOU DIED.h1 id="gameover">GAME OVER</h1>`;
+}
+
+function firstBBThing() {
+  document.getElementById("response3").innerHTML = `You decide that walking through either of these doors is deadly and exit the warehouse and follow the second lead, the house where the serial killer was spotted two days ago.`;
+  reSecondThing();
+}
+
+function reSecondThing() {
+  document.getElementById("response4").innerHTML = `You break into the house and try to unlock all the doors. You see several doors, trying all of them. As you turn each of the doorknobs, you notice only two of the doors are unlocked.<button type="button" name="Theevilbutton1" onClick="secondAThing()">1</button><button type="button" name="Theevilbutton2" onClick="secondBThing()">2</button>`;
+}
+
 function secondThing() {
-  document.getElementbyId("response2").innerHTML = `You break into the house and try to unlock all the doors. You see several doors, trying all of them. As you turn each of the doorknobs, you notice only two of the doors are unlocked.<button type="button" name="Theevilbutton" onClick="secondThing()">1</button>`;
+  document.getElementById("response1").innerHTML = `You break into the house and try to unlock all the doors. You see several doors, trying all of them. As you turn each of the doorknobs, you notice only two of the doors are unlocked.<button type="button" name="Theevilbutton1" onClick="secondAThing()">1</button>`;
+  
 }
 
 function secondAThing() {
