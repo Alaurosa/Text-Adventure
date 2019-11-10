@@ -20,16 +20,15 @@ h2{
 }
 
 .myButton{
+  display: flex, inline-block;
   margin:0 auto;
   height:30px;
   width:125px;
   background:white;
-  display: flex;
   font-size:20px;
-
-
-
+  /* display: inline-block;*/
 }
+
 
 body {
 background-image: url("487725.jpg");
