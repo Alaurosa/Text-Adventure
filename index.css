@@ -1,13 +1,22 @@
 h1 {
-
+padding-left: 500px;
+padding-right: 500px;
 }
 
 #para1{
+
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size:25px;
+  padding-top: 100px;
+  color: black;
   padding-left: 10px;
   padding-right: 10px;
   color: blue;
+
 }
 
 body {
 background-image: url("Spooky.jpeg ");
+background-size:cover;
 }
