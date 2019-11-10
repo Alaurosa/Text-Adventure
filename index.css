@@ -28,11 +28,15 @@ h3{
   font-size:23px;
 }
 
-.Theevilbutton{
-  margin:50px;
+.block{
+  text-align: center;
+  font-size: 16px;
+  width: 50%;
 }
-.Theevilbutton2{
-  margin:50px;
+.block2{
+  width:50%;
+  text-align: center;
+  font-size: 16px;
 }
 
 #gameover {
