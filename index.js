@@ -17,7 +17,7 @@ function oneA() {
 }
 
 function oneAA() {
-  document.getElementById("response3").innerHTML = `You open the door and you realize it isn’t the sound of whimpering you’re hearing, but rather growling. You see two glaring red eyes look up to you and it pounces at you..<h1 id="gameover">OBJECTIVE FAILED<br>GAME OVER</h1>`;
+  document.getElementById("response3").innerHTML = `You open the door and you realize it isn’t the sound of whimpering you’re hearing, but rather growling. You see two glaring red eyes look at you and pounces. You put up a good fight, but it doesn't last long.<h1 id="gameover">OBJECTIVE FAILED<br>GAME OVER</h1>`;
 }
 
 function oneAB() {
